@@ -1,0 +1,39 @@
+
+From: Bank Security <support@bankexample.com>
+To: user@example.net
+Subject: URGENT - Verify Your Account Immediately
+Return-Path: <attacker@unknown-domain.com>
+Received: from unknown-domain.com
+    by mail.example.net
+Authentication-Results: mail.example.net;
+    spf=fail smtp.mailfrom=unknown-domain.com;
+    dkim=fail header.d=bankexample.com
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+
+<html>
+<body>
+<h2>Urgent Security Alert!</h2>
+
+<p>Dear Customer,</p>
+
+<p>Your bank account has been temporarily suspended
+due to suspicious activity.</p>
+
+<p>You must verify your identity immediately
+to restore your account.</p>
+
+<p>Click the link below to verify your account:</p>
+
+<a href="http://192.168.1.10/login">
+Verify Your Account
+</a>
+
+<p>Failure to act now may result in permanent
+account closure.</p>
+
+<p>Thank you,<br>
+Bank Security Team</p>
+
+</body>
+</html>
